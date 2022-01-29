@@ -68,6 +68,20 @@ const Grapes = () => {
         },
       ],
     });
+
+    //traits
+    editor.Commands.add("show-traits", {
+      getTraitsEl(editor) {
+        const row = editor.getContainer().closest(".editor-row");
+        return row.querySelector(".traits-container");
+      },
+      run(editor, sender) {
+        this.getTraitsEl(editor).style.display = "";
+      },
+      stop(editor, sender) {
+        this.getTraitsEl(editor).style.display = "none";
+      },
+    });
   };
 
   const loadGrapesjs = async () => {
@@ -90,6 +104,7 @@ const Grapes = () => {
         <div class="panel__right">
           <div class="layers-container"></div>
           <div class="styles-container"></div>
+          <div class="traits-container"></div>
         </div>
       </div>
       <div id="blocks"></div>

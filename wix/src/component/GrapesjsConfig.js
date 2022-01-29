@@ -49,6 +49,7 @@ const GrapesjsConfig = () => {
     layerManager: {
       appendTo: ".layers-container",
     },
+
     // We define a default panel as a sidebar to contain layers
     panels: {
       defaults: [
@@ -72,9 +73,19 @@ const GrapesjsConfig = () => {
               command: "show-styles",
               togglable: false,
             },
+            {
+              id: "show-traits",
+              active: true,
+              label: "Traits",
+              command: "show-traits",
+              togglable: false,
+            },
           ],
         },
       ],
+    },
+    traitManager: {
+      appendTo: ".traits-container",
     },
     // The Selector Manager allows to assign classes and
     // different states (eg. :hover) on components.
