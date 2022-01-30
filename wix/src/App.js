@@ -5,7 +5,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Grapes from "./component/Grapes";
 import Home from './components/home/Home.js';
-// import Project from './components/project/Project.js';
+import Project from './components/project/Project.js';
 
 
 function App() {
