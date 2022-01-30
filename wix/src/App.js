@@ -5,7 +5,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Grapes from "./component/Grapes";
 import Home from './components/home/Home.js';
-import Project from './components/project/Project.js';
+// import Project from './components/project/Project.js';
 
 
 function App() {
@@ -14,10 +14,8 @@ function App() {
     <div className="App"  >
         <Routes>
           <Route exact path='/' element={ <Home/>} />
-          <Route exact path='/project' element={ <Project/>} />
-        </Routes>
-         <Grapes />
-         
+          <Route exact path='/project' element={ <Grapes />} />
+        </Routes>     
     </div>
 
   );
