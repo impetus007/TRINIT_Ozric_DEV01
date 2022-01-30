@@ -7,6 +7,11 @@ An application which allows us to build a website just by dragging and dropping 
 This application uses GrapesJS for getting the drad and drop functionality. 
 The framework used for frontend is ReactJs.
 
+## Demo Link
+https://www.youtube.com/watch?v=L1ToeNAxTzc
+
+
+![Screenshot44](https://github.com/Deaddemon/TRINIT_Ozric_DEV01/blob/vinita/wix/public/static/Screenshot%20(44).png)
 
 
 ## Built With
