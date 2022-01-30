@@ -16,8 +16,9 @@ const Item = styled(Paper)(({ theme }) => ({
   textAlign: 'center',
   margin: 'auto',
   width: '100%',
-  color: '#C5F1FE',
-  backgroundColor:'rgba(22, 22, 34, 0.5)',
+  color: '#161622',
+  backgroundColor:'rgba(22, 22, 34, 0.1)',
+  fontFamily: 'Oxygen'
   
 }));
 const useStyle = makeStyles({
@@ -31,6 +32,10 @@ const useStyle = makeStyles({
 
 
     },
+    item1:{
+      display:'flex',
+      
+    }
     
   
 
@@ -43,10 +48,10 @@ export default function DividerStack() {
      <Grid container spacing={0} className={classes.root}>
   <Grid item xs={8}>
        
-    <Item >
-        <Item> <InfoIcon/> ___ About</Item>
-        <Item><SecurityIcon/>___Terms of Use</Item>
-        <Item><AcUnitIcon/>___Privacy Policy</Item></Item>
+    <Item  >
+        <Item className={classes.item1}> <InfoIcon />  About </Item>
+        <Item className={classes.item1}><SecurityIcon/>Terms of Use</Item>
+        <Item className={classes.item1}><AcUnitIcon/> Privacy Policy</Item></Item>
   </Grid>
   <Grid item xs={4}>
         <Item>

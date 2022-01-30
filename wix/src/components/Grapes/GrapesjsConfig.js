@@ -9,7 +9,7 @@ const GrapesjsConfig = () => {
     // As an alternative we could use: `components: '<h1>Hello World Component!</h1>'`,
     fromElement: true,
     // Size of the editor
-    height: "300px",
+    height: "80vh",
     width: "auto",
     storageManager: false,
     //Append Block
