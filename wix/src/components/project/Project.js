@@ -1,17 +1,26 @@
 import React from "react";
 
-import {Box} from '@material-ui/core'
-
-import Navbar from "../home/Navbar";
+import { Box, makeStyles } from "@material-ui/core";
 import Grapes from "../Grapes/Grapes";
 
-function Project(){
-    return(
-       <Box>
-           <Navbar/>
-           <Grapes />
-       </Box>
-    )
+import Navbar from "../home/Navbar";
+const useStyles = makeStyles({
+  root: {
+    margin: "0px",
+  },
+});
+
+function Project() {
+  const classes = useStyles();
+
+  return (
+    <Box>
+      <Navbar />
+      <Box className={classes.root}>
+        <Grapes />
+      </Box>
+    </Box>
+  );
 }
 
 export default Project;
