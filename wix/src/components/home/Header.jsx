@@ -1,7 +1,7 @@
 import * as React from 'react'; 
 import {Box , List  , Divider , makeStyles ,Typography ,Icon, Button  } from '@material-ui/core';
 import {Link} from 'react-router-dom'
-
+import Content from './Content'
 import logo from './home.svg';
 
 const style = {
@@ -117,6 +117,7 @@ export default function ListDividers() {
 
        <Divider variant='middle'/>
 
+      
        <Box className={classes.root2}>
           <Box className={classes.component3}> 
           <Typography variant='h3' style={{paddingBottom:'2%'}}>Lorem ipsum</Typography>
@@ -125,6 +126,8 @@ export default function ListDividers() {
           <Typography>ie varius au leifend ac at elit. In hac habitasse platea dictumst. Duis convallis quam ac fermentum aliquam. Vivamus placerat malesuada tellus, a tincidunt nisi pellentesque in. Phasellus placerat eros pretium sapien consequat, gravida fermentum dolor vehicula. Nullam facilisis imperdiet elit nec aliquam. Vivamus auctor faucibus risus ut viverra. Sed vitae nulla in ex placerat condimentum. Phasellus convallis, nunc eget malesuada semper, lectus quam pretium nunc, in lobortis velit velit in turpis. Quisque ac sem sit amet elit pharetra gravida ut sit amet or</Typography>
           </Box>
        </Box>
+
+ 
 
     
        

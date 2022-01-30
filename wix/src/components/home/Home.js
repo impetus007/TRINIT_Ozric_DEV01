@@ -5,6 +5,7 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 import Header from "./Header"
 import Content from './Content'
+
 const useStyle = makeStyles({
     root:{
         background:'#161622',
@@ -21,6 +22,7 @@ function Home(){
         <div className={classes.root}> 
         <Navbar/>
         <Header/> 
+      
         <Footer/>
 
         
