@@ -50,6 +50,20 @@ const GrapesjsConfig = () => {
       appendTo: ".layers-container",
     },
 
+    deviceManager: {
+      devices: [
+        {
+          name: "Desktop",
+          width: "", // default size
+        },
+        {
+          name: "Mobile",
+          width: "320px", // this value will be used on canvas width
+          widthMedia: "480px", // this value will be used in CSS @media
+        },
+      ],
+    },
+
     // We define a default panel as a sidebar to contain layers
     panels: {
       defaults: [
@@ -78,6 +92,25 @@ const GrapesjsConfig = () => {
               active: true,
               label: "Traits",
               command: "show-traits",
+              togglable: false,
+            },
+          ],
+        },
+        {
+          id: "panel-devices",
+          el: ".panel__devices",
+          buttons: [
+            {
+              id: "device-desktop",
+              label: "D",
+              command: "set-device-desktop",
+              active: true,
+              togglable: false,
+            },
+            {
+              id: "device-mobile",
+              label: "M",
+              command: "set-device-mobile",
               togglable: false,
             },
           ],
