@@ -51,8 +51,47 @@ cd
 ```
 npm start
 ```
+
+### How to Contribute
+
+A step by step guide for contributing to this repository
+
+fork the repo
+
+```
+git clone https://github.com/*your_repo_name*/TRINIT_Ozric_DEV01.git
+```
+```
+cd *directory*
+```
+
+```
+git remote
+```
+
+```
+git remote show origin
+```
  
-  
+
+```
+ git remote add upstream " https://github.com/*original_repo_name*/TRINIT_Ozric_DEV01.git"
+```
+
+```
+ git remote
+```
+
+```
+ git remote show upstream
+```
+
+```
+ git pull upstream *main/master*
+```
+
+now start making changes
+ 
 
  
 ## Authors
