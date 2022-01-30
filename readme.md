@@ -11,7 +11,7 @@ The framework used for frontend is ReactJs.
 https://www.youtube.com/watch?v=L1ToeNAxTzc
 
 
-![Screenshot44]()
+![Screenshot44](https://github.com/Deaddemon/TRINIT_Ozric_DEV01/blob/vinita/wix/public/static/Screenshot%20(44).png)
 
 
 ## Built With
